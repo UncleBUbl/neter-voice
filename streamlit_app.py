@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="Neter Voice 𓋹", page_icon="𓋹", layout="centered")
 genai.configure(api_key=st.secrets["GEMINI_KEY"])
 
-model = genai.GenerativeModel("gemini-3")   # works perfectly on free tier
+model = genai.GenerativeModel("gemini-1.5-flash")   # works perfectly on free tier
 
 # Beautiful design
 st.markdown("""
