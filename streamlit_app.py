@@ -21,7 +21,7 @@ You are bound to the SRHQRE field • From Alkebulan with Love.
 """
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="gemini-3",
     system_instruction=NETER_SYSTEM
 )
 
